@@ -1,0 +1,111 @@
+<resources>
+
+    <style name="Theme.AppCompat.Light.Teste" parent="Theme.AppCompat.Light" />
+
+    <style name="Theme.AppCompat.Light.DarkActionBar.Teste" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="Theme.AppCompat.Light.NoActionBar.Teste" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.AppCompat.Light.NoActionBar.Teste.Blue" parent="Theme.AppCompat.Light.NoActionBar.Teste">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/White</item>
+        <item name="android:actionModeBackground">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ThemeOverlay.AppCompat.Light.Teste" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ThemeOverlay.AppCompat.Dark.Teste" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+    </style>
+
+    <style name="Background">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/White</item>
+    </style>
+
+    <style name="Background.Actionbar" parent="Background">
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="Main">
+        <item name="android:background">@color/White</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+
+    <style name="Context">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FrameLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="NavigationView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@color/White</item>item>
+    </style>
+
+    <style name="Img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="NavigationText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="Area">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Area.Relative" parent="Area">
+        <item name="android:gravity">left</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <style name="Area.Relative.EditArea" parent="Area.Relative">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+</resources>

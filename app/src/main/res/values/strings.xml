@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Radar</string>
+
+    <string name="escola">Escola</string>
+    <string name="todos">Todos</string>
+    <string name="avisos">Avisos</string>
+    <string name="biz">Biz</string>
+    <string name="confira">Confira</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="testText">XXXX</string>
+    <string name="networking">networking</string>
+
+</resources>
